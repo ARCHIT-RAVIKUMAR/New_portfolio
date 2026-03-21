@@ -157,10 +157,11 @@ body{
 /* ══════════════════════════════════
    MAIN SITE
 ══════════════════════════════════ */
+/* AFTER */
 #main{
   opacity:0;pointer-events:none;
   transition:opacity .6s;
-  min-height:100vh;
+  min-height:0;
 }
 #main.show{opacity:1;pointer-events:all;}
 
